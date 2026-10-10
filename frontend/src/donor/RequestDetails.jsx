@@ -81,7 +81,7 @@ function RequestDetails() {
         );
       } else if (requestError.request) {
         setError(
-          "The backend server could not be reached. Make sure FastAPI is running on http://127.0.0.1:8000.",
+          "The backend server could not be reached. Please check that the API is online at https://foodconnect-ai.up.railway.app/api.",
         );
       } else {
         setError(

@@ -7,3 +7,15 @@ backend/.env
 frontend/.env
 __pycache__/
 *.pyc
+.vercel
+venv/
+backend/venv/
+env/
+backend/env/
+.venv
+backend/.venv
+backend/.venv/*
+*.egg-info/
+dist/
+build/
+.DS_Store
